@@ -1,0 +1,71 @@
+/* Navigation Styles */
+
+.top_nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.top_nav, li {
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/Thanos\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* How To Section */
+.howTo {
+    padding-top: 6em;
+}
+
+.how_to_header {
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2em;
+    margin-top: 10rem;
+}
+
+.image {
+    width: 12em;
+    line-height: 12em;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+}
+
+.content_num_div {
+    width: 20vw
+}
+.content_div {
+    width: 70vw;
+}
+
+.content_div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+}
