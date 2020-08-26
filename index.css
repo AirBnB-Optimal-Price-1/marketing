@@ -28,6 +28,10 @@ h2 {
     background: transparent;
 }
 
+.top_nav, ul, a {
+    text-decoration: none !important;
+}
+
 .top_nav, li {
     text-decoration: none;
     padding-right: 2em;
@@ -109,11 +113,13 @@ li:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card {
     border: 2px solid black;
     width: 20%;
     text-align: center;
+    margin-bottom: 2em;
 }
 .testi_img {
     height: auto;
@@ -125,6 +131,14 @@ li:hover {
 .testi_p {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+/* Meet The Team */
+
+.teamHR {
+    width: 50%;
+    height: 3px;
+    background-color: #FF5A5F;
 }
 
 
