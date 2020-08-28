@@ -12,7 +12,7 @@ h2 {
 }
 
 h1 {
-    color: #FF5A5F;
+    color: lightcoral;
     font-size: 5em;
 }
 
@@ -42,7 +42,7 @@ h2 {
 }
 
 .top_nav, li:hover {
-    color: #FF5A5F;
+    color: lightcoral;
 }
 
 .nav_logo {
@@ -56,13 +56,13 @@ li:hover {
 .log_in {
     padding: 10px;
     color: black;
-    border: 2px solid #FF5A5F;
+    border: 2px solid lightcoral;
     border-radius: 10px;
 }
 
 .log_in:hover {
     color: white;
-    background-color: #FF5A5F;
+    background-color: lightcoral;
     text-decoration: none !important;
 }
 
@@ -166,7 +166,7 @@ li:hover {
 }
 
 .far {
-    color: #FF5A5F;
+    color: lightcoral;
 }
 
 /* Meet The Team */
