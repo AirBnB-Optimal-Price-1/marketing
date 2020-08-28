@@ -53,6 +53,17 @@ li:hover {
     text-decoration: underline;
 }
 
+.log_in {
+    padding: 10px;
+    color: white;
+    background-color: #FF5A5F;
+    border-radius: 10px;
+}
+
+.log_in:hover {
+    color: white;
+}
+
 /* Hero Section */
 
 .hero {
@@ -82,13 +93,19 @@ li:hover {
     margin-top: 10rem;
 }
 
+.num_row {
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
 .image {
     width: 12em;
     line-height: 12em;
     border-radius: 50%;
     text-align: center;
     font-size: 30px;
-    background-color: lightblue;
+    background-color: #0098db;
 }
 
 .content_num_div {
